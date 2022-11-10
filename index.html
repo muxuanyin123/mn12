@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>zhang</title>
+		<style type="text/css">
+			.vistor{
+				width:90px;
+				height:90px;
+				background-color:purple;
+				transition:width 1s;
+			}
+			.student{
+				width:90px;
+				height:90px;
+				background-color:pink;
+				transition:width 1s;
+			}
+				img{
+							width: 90px;
+							height: 90px}
+			.zhang{
+				color: white;
+				display: none;
+				line-height: 110px;
+				margin-left: 20px;
+				position:absolute;
+				  font-size: 50px;
+			}
+			.guo{
+				display: inline-block;
+				line-height: 30px;	
+			}
+			div:hover{
+				width: 500px;
+			}
+			div:hover .zhang{
+				display: inline-block;
+			}
+			div:hover .guo{
+				float: right;
+				line-height: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="vistor">
+			<span class="zhang">访客 visitor</span>
+			<span class="guo">  <img src="./1.jpeg"></span>
+		</div>
+		<div class="student">
+			<span class="zhang">学生 student</span>
+			<span class="guo"> <img src="./2.jpeg"> </span>	
+		</div>
+	</body>
+</html>
